@@ -12,12 +12,15 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    ".eslintcache": true
+	".eslintcache": true,
+	"package-lock.json": true,
+	"yarn.lock": true
   },
 
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
-    "**/*.code-search": true
+	"**/*.code-search": true,
+	"yarn.lock"
   }
 }
